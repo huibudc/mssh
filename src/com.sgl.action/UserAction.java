@@ -26,10 +26,6 @@ public class UserAction {
         this.user = user;
     }
 
-
-
-
-
     public String reg() {
         user.setId(UUID.randomUUID().toString());
         user.setRegtime(new Date());
