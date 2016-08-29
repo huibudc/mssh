@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.tan.model.Book;
 import com.tan.service.BookService;
-
+//http://wiki.jikexueyuan.com/project/spring/web-mvc-framework.html
 @Controller
 @RequestMapping("/book.do")
 public class BookController {
